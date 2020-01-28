@@ -1,1 +1,1 @@
-
+echo 'Billing works'
