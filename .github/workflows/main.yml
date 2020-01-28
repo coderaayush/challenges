@@ -3,10 +3,11 @@ name: Billing schedular workflow
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '48 12 * * *'
+    - cron:  '01 13 * * *'
 
 jobs:
   billing_job:
+    runs-on: self-hosted
     steps:
       - name: Execute initiate billing service
         run: bash scripts/initiate-billing.sh
