@@ -3,7 +3,7 @@ name: Billing schedular workflow
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '09 13 * * *'
+    - cron:  '29 13 * * *'
 
 jobs:
   billing_job:
