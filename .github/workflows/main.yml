@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Execute initiate billing service
-        run: bash scripts/initiate-billing.sh
+        run: echo 'Works like charm'
